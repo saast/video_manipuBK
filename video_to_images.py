@@ -28,7 +28,7 @@ while(True):
     if cv2.waitKey(1) & 0xFF == ord('e'):
         break
 
-    sleep(5)
+    sleep(1)
     i += 1
 
 # When everything done, release the capture
